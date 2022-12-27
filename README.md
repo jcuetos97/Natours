@@ -1,4 +1,6 @@
 # Natours
+
+Link to page: https://jcuetos97.github.io/Natours/
  
 ## Centering an element
 ```
