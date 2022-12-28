@@ -27,6 +27,7 @@
         
     &:active,
     &:focus {
+        outline: none;
         transform: translateY(-1px);
         box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
     }
@@ -54,7 +55,7 @@
         display: inline-block;
         height: 100%;
         width: 100%;
-        border-radius: 100px;
+        border-radius: 10rem;
         position: absolute;
         top: 0;
         left: 0;
@@ -63,8 +64,7 @@
     }
  
     &--animated {
-        animation: moveInBottom .5s ease-out;
-        animation-delay: .75s;
+        animation: moveInBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
     }
 }
@@ -84,12 +84,12 @@
     &:hover {
         background-color: $color-primary;
         color: $color-white;
-        box-shadow: 0rem 1rem 2rem rgba($color-black, .15);
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
         transform: translateY(-2px);
     }
 
     &:active {
-        box-shadow: 0rem .5rem 1rem rgba($color-black, .15);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
         transform: translateY(0);
     }
 
