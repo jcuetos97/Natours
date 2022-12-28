@@ -1100,6 +1100,7 @@ body {
 
 .footer {
   background-color: #333;
+  color: #eee;
   padding: 10rem 0;
   font-size: 1.4rem; }
   @media only screen and (max-width: 56.25em) {
@@ -1129,6 +1130,7 @@ body {
     .footer__item:not(:last-child) {
       margin-right: 1.5rem; }
   .footer__copyright {
+    color: #eee;
     border-top: 1px solid #eee;
     padding: 2rem 1rem;
     width: 80%;
