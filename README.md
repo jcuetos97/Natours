@@ -1,5 +1,7 @@
 # Natours
 
+![Demo](https://github.com/jcuetos97/Natours/blob/9c9da10d48739f331985cedbf554b4471d66ee0c/img/Natours%20Project.gif)
+
 Link to page: https://jcuetos97.github.io/Natours/
  
 ## Centering an element
